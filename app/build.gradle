@@ -1,0 +1,26 @@
+apply plugin: 'com.android.application'
+
+android {
+    namespace 'com.kalo.calendrier'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId 'com.kalo.calendrier'
+        minSdk 21
+        targetSdk 33
+        versionCode 1
+        versionName '1.0'
+    }
+
+    buildTypes {
+        release { minifyEnabled false }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+// Aucune bibliothèque externe : l'appli n'utilise que les outils fournis par Android.
+dependencies { }

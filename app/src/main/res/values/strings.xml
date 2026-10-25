@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kalo</string>
+    <string name="widget_name">Kalo · jour lunaire</string>
+    <string name="widget_description">Le jour lunaire, le mois et la phase de la lune. Change au coucher du soleil.</string>
+</resources>
